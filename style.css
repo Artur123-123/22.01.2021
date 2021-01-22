@@ -1,0 +1,40 @@
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10%;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    margin: 5px;
+}
+
+.grid-container {
+    display: grid;
+    /* grid-template-columns:  auto auto auto auto auto auto; */
+    grid-template-rows: auto auto auto auto auto auto;
+    text-align: center;
+}
+
+.grid {
+    border: 1px solid black;
+}
+
+.width {
+    width: 100%;
+}
+
+.color1 {
+    background-color: rgb(190, 184, 184);
+    border: none;
+}
+
+.color2 {
+    background-color: rgb(218, 218, 218);
+    border: none;
+}
+
+.color3 {
+    background-color: rgb(57, 57, 214);
+    border: none;
+    color: white;
+}
