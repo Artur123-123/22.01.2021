@@ -48,4 +48,18 @@
     border: 1px solid black;
 }
 
+.color1:hover {
+    background-color: lightgrey;
+}
 
+.color2:hover {
+    background-color: white;
+}
+
+.color3:hover {
+    background-color: rgb(8, 105, 138);
+}
+
+.grid-item:hover { 
+    Cursor: pointer;
+}
