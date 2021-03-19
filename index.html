@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="border">
         <div class="grid-container">
-        <div class="width">
-            <input type="text" id="inputShowScore" class="text1">
+            <div class="width">
+                <input type="text" id="inputShowScore" class="text1 inp">
+            </div>
+            <div>
+                <button class="grid-item color1" onclick="getnumber(value)" value="Rad">Rad</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="Deg">Deg</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="x!">x!</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="(">(</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value=")">)</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="%">%</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="AC">AC</button>
+            </div>
+            <div>
+                <button class="grid-item color1" onclick="getnumber(value)" value="Inv">Inv</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="sin">sin</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="In">In</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="7">7</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="8">8</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="9">9</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="/">÷</button>
+            </div>
+            <div>
+                <button class="grid-item color1" onclick="getnumber(value)" value="π">π</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="cos">cos</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="log">log</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="4">4</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="5">5</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="6">6</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="*">✖</button>
+            </div>
+            <div>
+                <button class="grid-item color1" onclick="getnumber(value)" value="e">e</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="tan">tan</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="√">√</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="1">1</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="2">2</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="3">3</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="-">-</button>
+            </div>
+            <div>
+                <button class="grid-item color1" onclick="getnumber(value)" value="Ans">Ans</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="EXP">EXP</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="Xy">Xy</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value="0">0</button>
+                <button class="grid-item color2" onclick="getnumber(value)" value=".">.</button>
+                <button class="grid-item color3" onclick="getSum(value)" value="=">=</button>
+                <button class="grid-item color1" onclick="getnumber(value)" value="+">+</button>
+            </div>
         </div>
-        <div>
-        <button class="grid-item color1">Rad</button>
-        <button class="grid-item color1">Deg</button>
-        <button class="grid-item color1">x!</button>
-        <button class="grid-item color1">(</button>
-        <button class="grid-item color1">)</button>
-        <button class="grid-item color1">%</button>
-        <button class="grid-item color1">AC</button>
     </div>
-    <div>
-        <button class="grid-item color1">Inv</button>
-        <button class="grid-item color1">sin</button>
-        <button class="grid-item color1">In</button>
-        <button class="grid-item color2">7</button>
-        <button class="grid-item color2">8</button>
-        <button class="grid-item color2">9</button>
-        <button class="grid-item color1">÷</button>
-        </div>
-        <div>
-        <button class="grid-item color1">π</button>
-        <button class="grid-item color1">cos</button>
-        <button class="grid-item color1">log</button>
-        <button class="grid-item color2">4</button>
-        <button class="grid-item color2">5</button>
-        <button class="grid-item color2">6</button>
-        <button class="grid-item color1">✖</button>
-        </div>
-        <div>
-        <button class="grid-item color1">e</button>
-        <button class="grid-item color1">tan</button>
-        <button class="grid-item color1">√</button>
-        <button class="grid-item color2">1</button>
-        <button class="grid-item color2">2</button>
-        <button class="grid-item color2">3</button>
-        <button class="grid-item color1">-</button>
-        </div>
-        <div>
-        <button class="grid-item color1">Ans</button>
-        <button class="grid-item color1">EXP</button>
-        <button class="grid-item color1">Xy</button>
-        <button class="grid-item color2">0</button>
-        <button class="grid-item color2">.</button>
-        <button class="grid-item color3">=</button>
-        <button class="grid-item color1">+</button>
-        </div>
-    </div>
-    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
